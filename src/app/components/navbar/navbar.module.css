@@ -1,0 +1,38 @@
+/* components/Navbar.module.css */
+
+.navbar {
+    background-color: #1b1b1b; /* Blackish background */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .logoLink {
+    color: #FF8F9C; /* Accent color */
+    text-decoration: none;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navLink:hover {
+    color: #be2e3f; /* Accent color */
+    text-decoration: underline;
+  }
+  

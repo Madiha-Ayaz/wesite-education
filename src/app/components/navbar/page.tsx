@@ -3,11 +3,12 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './navbar.module.css';
-
+import Header from "../header/page";
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
+        <Header/>
         <Link href="/">
           WebDev Academy
         </Link>

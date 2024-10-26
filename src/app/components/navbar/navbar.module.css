@@ -1,7 +1,7 @@
-/* components/Navbar.module.css */
+
 
 .navbar {
-    background-color: #1b1b1b; /* Blackish background */
+    background-color: #1b1b1b; 
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
   }
   
   .logoLink {
-    color: #FF8F9C; /* Accent color */
+    color: #FF8F9C; 
     text-decoration: none;
   }
   
@@ -32,7 +32,7 @@
   }
   
   .navLink:hover {
-    color: #be2e3f; /* Accent color */
+    color: #be2e3f;
     text-decoration: underline;
   }
   

@@ -1,4 +1,4 @@
-// components/footer/page.tsx
+
 import React from 'react';
 import styles from './footer.module.css';
 

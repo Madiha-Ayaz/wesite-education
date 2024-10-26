@@ -80,11 +80,11 @@ font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh; /* Full viewport height */
+    height: 90vh; 
     background-color: #944f4f; 
     width: 100%;
     padding: 70px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Shadow on the bottom */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to bottom, #944f4f, #131111);
   }
   .all_icon {
@@ -94,7 +94,7 @@ font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: rotate-icons 10s linear infinite; /* Animate the entire container */
+    animation: rotate-icons 10s linear infinite; 
     
   }
   
@@ -102,9 +102,9 @@ font-size: 1rem;
     width: 150px;
   height: 150px;
   border-radius: 100%;
-  background-image:url(../../../../public/eath-removebg-preview.png); /* Adjust the path accordingly */
-  background-size: cover; /* Ensures the image covers the circle */
-  background-position: center; /* Ensures the image is centered */
+  background-image:url(../../../../public/eath-removebg-preview.png); 
+  background-size: cover; 
+  background-position: center; 
   position: absolute;
   z-index: 1;
   margin-left: 10px;
@@ -128,7 +128,7 @@ font-size: 1rem;
 margin-left: 10px;
   }
   
-  /* Position each icon around the circle at equal intervals */
+  
   .icon:nth-child(1) {
     transform: rotate(0deg) translate(110px);
   }
@@ -148,25 +148,25 @@ margin-left: 10px;
     transform: rotate(300deg) translate(110px);
   }
   
-  /* Keyframe animation to rotate all icons together */
+  
   @keyframes rotate-icons {
     from {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg); /* Full circle */
+      transform: rotate(360deg);
     }
   }
   .pageContainer2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh; /* Full viewport height */
-    background-color: #181717; /* Background color */
-    width: 100%; /* Ensure full width */
+    height: 60vh; 
+    background-color: #181717;
+    width: 100%; 
     box-shadow: 0px -20px 20px rgba(56, 54, 54, 0.2);
     display: flex;
-    flex-direction: column; /* Stacks the elements vertically */
+    flex-direction: column; 
     gap: 20px;
    
     background: linear-gradient(to top, #1d1d1f, #131111);
@@ -259,14 +259,14 @@ margin-left: -60%;
   text-decoration: underline;
 }
 .formContainer:hover {
-  transform: translateY(-10px); /* Slight lift on hover */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 .icon1:hover,
 .icon2:hover,
 .icon3:hover,
 .icon4:hover {
-  transform: scale(1.2); /* Scales the icon by 20% */
+  transform: scale(1.2);
 }
 .icon1,
 .icon2,

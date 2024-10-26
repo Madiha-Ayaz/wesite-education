@@ -1,12 +1,12 @@
-/* styles/hero.module.css */
+
 
 .hero {
-    background-color: #00b5d1; /* Hero section background color */
+    background-color: #00b5d1; 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px; /* Adjust height as needed */
+    height: 700px;
     text-align: center;
     background: linear-gradient(to right, #b18fff86, #1b1b1b);
   }
@@ -31,7 +31,7 @@
   }
   
   .ctaButton {
-    background-color: #ff8f9c; /* Button color */
+    background-color: #ff8f9c; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -41,16 +41,16 @@
   }
   
   .ctaButton:hover {
-    background-color: #ff6a7f; /* Darker shade on hover */
+    background-color: #ff6a7f; 
   }
- /* styles/ProgrammingCourses.module.css */
+ 
 .image{
     text-align: left;
 }
 .image {
-    display: block; /* Ensures the image is treated as a block element */
-    margin-left: 0; /* You can adjust margin as per your requirement */
-    margin-right: 5px; /* Optional: If you want to remove the right margin */
+    display: block; 
+    margin-left: 0; 
+    margin-right: 5px;
   }
 .courses {
     padding: 20px;
@@ -72,14 +72,14 @@
     display: inline-block;
     background-color: #fff;
     border: 2px solid #ff8f9c;
-    padding: 10px 20px; /* Smaller padding to make it look like a button */
+    padding: 10px 20px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* Change cursor to pointer to make it feel like a button */
+    cursor: pointer; 
   }
   
   .animated{
-    font-size: 1rem; /* Smaller font size for the button */
+    font-size: 1rem; 
     color: #333;
     white-space: nowrap;
     overflow: hidden;
@@ -87,8 +87,8 @@
     width: 0;
     animation: typing 3s steps(30) forwards, blink 0.75s step-end infinite;
   }
+
   
-  /* Keyframes for typing animation */
   @keyframes typing {
     from {
       width: 0;
@@ -97,8 +97,8 @@
       width: 100%;
     }
   }
+
   
-  /* Keyframes for blinking cursor */
   @keyframes blink {
     50% {
       border-color: transparent;
@@ -107,15 +107,15 @@
   @keyframes fadeIn {
     0% {
       opacity: 0;
-      transform: translateY(-20px); /* Start above */
+      transform: translateY(-20px); 
     }
     50% {
       opacity: 0.5;
-      transform: translateY(10px); /* Slight overshoot */
+      transform: translateY(10px); 
     }
     100% {
       opacity: 1;
-      transform: translateY(0); /* Settle into place */
+      transform: translateY(0); 
     }
   }
  
